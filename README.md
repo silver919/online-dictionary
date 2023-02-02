@@ -1,0 +1,1 @@
+A simple online dictionary made using Vanilla Javascript, HTML and CSS.
