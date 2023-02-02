@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #fde68a;
+    --secondary-color: #fbbf24;
+}
+
+
 body{
     margin:0;
     display: flex;
     min-height:100vh;
     justify-content: center;
     align-items: center;
-    background-color: salmon;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--primary-color);
+    font-family: 'Kalam', cursive;
 }
 
 .container{
-    background-color: rgba(255,255,255, .3);
-    padding: 28px;
-    border-radius: 7px;
+    background-color: var(--secondary-color);
+    padding: 60px;
+    border-radius: 50px;
     box-shadow: 0 10px 10px rgba(0,0,0,.3);
     width: 90%;
     margin: 10px;
